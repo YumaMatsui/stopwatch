@@ -321,17 +321,13 @@ document.onkeydown = function(event) {
 
 
 
-    room.once('open', () => {
-
-      messages.textContent += '=== You joined ===\n';
-
-    });
-
     // room.once('open', () => {
 
-    //   messages2.textContent += '=== You joined ===\n';
+    //   messages.textContent += '=== You joined ===\n';
 
     // });
+
+    
 
 
     
@@ -344,17 +340,12 @@ document.onkeydown = function(event) {
     // });
     //ここまで
 
-    room.on('peerJoin', peerId => {
-
-      messages.textContent += `=== ${peerId} joined ===\n`;
-
-    });
-
     // room.on('peerJoin', peerId => {
 
-    //   messages2.textContent += `=== ${peerId} joined ===\n`;
+    //   messages.textContent += `=== ${peerId} joined ===\n`;
 
     // });
+
 
     
 
@@ -435,8 +426,8 @@ document.onkeydown = function(event) {
 
 
 
-      messages.textContent += `=== ${peerId} left ===\n`;
-      // messages2.textContent += `=== ${peerId} left ===\n`;
+      // messages.textContent += `=== ${peerId} left ===\n`;
+      
       
 
     });
@@ -447,11 +438,11 @@ document.onkeydown = function(event) {
 
     room.once('close', () => {
 
-      sendTrigger.removeEventListener('click', onClickSend);
+      // sendTrigger.removeEventListener('click', onClickSend);
       
       
-      messages.textContent += '== You left ===\n';
-      // messages2.textContent += '== You left ===\n';
+      // messages.textContent += '== You left ===\n';
+      
       
 
       Array.from(remoteVideos.children).forEach(remoteVideo => {
@@ -466,7 +457,7 @@ document.onkeydown = function(event) {
 
     });
 
-    sendTrigger.addEventListener('click', onClickSend);
+    // sendTrigger.addEventListener('click', onClickSend);
    
     // sendTrigger2.addEventListener('click', onClickSend2); //追加
     startBtn.addEventListener('click', setInterval(onClickSend2, 1000)); //追加ボタン スタートボタンクリックで時間変数送信
@@ -510,14 +501,15 @@ document.onkeydown = function(event) {
 
       // Send message to all of the peers in the room via websocket
 
-      room.send(localText.value);
+      // room.send(localText.value);
 
 
 
-      messages.textContent += `${peer.id}: ${localText.value}\n`;
+      // messages.textContent += `${peer.id}: ${localText.value}\n`;
+      // messages.textContent += `${peer.id}: ${localText.value}\n`;
       
 
-      localText.value = '';
+      // localText.value = '';
 
     }
 

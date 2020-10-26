@@ -3,15 +3,19 @@
 /* body { margin: 0; } */
 
 
+
 body {
-  margin: 0;
+  /* margin: 0;
   overflow: visible !important;
   background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
   background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
   background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
   background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
-  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
- }
+  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%); */
+
+  /* background-image:linear-gradient(-45deg, #fff 25%, #eac7cd 25%, #eac7cd 50%, #fff 50%, #fff 75%, #eac7cd 75%, #eac7cd); */
+  background-image:linear-gradient(-45deg, #DAE9EE 25%, #FFFEF9 25%, #FFFEF9 50%, #DAE9EE  50%, #DAE9EE 75%, #FFFEF9 75%, #FFFEF9);
+}
 
 
 
@@ -196,24 +200,27 @@ table {
   left:  -100px; 
 }
 
-.container2 {
+/* .container2 {
   position: relative;
   left:  540px; 
-  /* top: -300px; */
+  top: -300px;
   top: -150px;
-}
+}*/
 
-.container3 {
+/* .container3 {
   position: relative;
   left:  450px; 
-  /* top: -300px; */
+  top: -300px;
   top: -150px;
-}
+}   */
 
-#timerLabel2 {
+
+/* #timerLabel2 {
   position: relative;
-  left:  -800px; 
-}
+   right:  200px; 
+  top: -150px; 
+   
+}  */
 
 
 
