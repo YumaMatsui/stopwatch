@@ -1,0 +1,258 @@
+/* normalize */
+
+/* body { margin: 0; } */
+
+
+body {
+  margin: 0;
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+ }
+
+
+
+
+/* global styles */
+
+video {
+
+  background-color: #111;
+
+  width: 100%;
+
+}
+
+
+
+/* .heading {
+
+  text-align: center;
+
+  margin-bottom: 0;
+
+} */
+
+
+.heading {
+  text-align: center;
+  margin-bottom: 0;
+
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 1px #96c2fe;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+
+.note {
+
+  text-align: center;
+
+}
+
+.meta {
+
+  text-align: center;
+
+  font-size: .8rem;
+
+  color: gray;
+
+}
+
+
+
+.container {
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  width: 1200px;
+
+}
+
+
+
+/* p2p-media styles */
+
+.p2p-media {
+
+  display: flex;
+
+  align-items: center;
+
+  flex-direction: column;
+
+}
+
+
+
+.p2p-media .remote-stream {
+
+  width: 50%;
+
+}
+
+
+
+.p2p-media .local-stream {
+
+  width: 30%;
+
+}
+
+
+
+/* p2p-data styles */
+
+.p2p-data {
+
+  display: grid;
+
+  grid-template-columns: 30% 1fr;
+
+  margin: 0 8px;
+
+}
+
+
+
+.p2p-data .messages {
+
+  background-color: #eee;
+
+  min-height: 100px;
+
+  padding: 8px;
+
+  margin-top: 0;
+
+
+}
+
+
+
+/* room */
+
+.room {
+
+  display: grid;
+
+  grid-template-columns: 30% 40% 30%;
+
+  gap: 8px;
+
+  margin: 0 8px;
+
+
+}
+
+
+
+.room .remote-streams {
+
+  background-color: #f6fbff;
+
+}
+
+
+
+.room .messages {
+
+  /* background-color: #eee; */
+  background-color: #FFFFCC;
+
+  /* min-height: 100px; */
+  min-height: 150px; 
+ 
+  /* min-height: 50px; */
+
+  /* padding: 8px; */
+  padding: 6px;
+
+  margin-top: 0;
+
+  /* min-width: 100px; */
+  
+
+}
+
+table {
+  position:  absolute;        /* 要素の配置方法を指定 */
+  background-color: #fff;     /* 背景色指定 */
+  /* padding:  20px;            /* 余白指定 */
+  left:  1020px;                /* 左からの位置指定 */
+  top: 400px;                  /* 上からの位置指定 */
+}
+
+.bxslider {
+  position: relative;
+  left:  -100px; 
+}
+
+.container2 {
+  position: relative;
+  left:  540px; 
+  /* top: -300px; */
+  top: -150px;
+}
+
+.container3 {
+  position: relative;
+  left:  450px; 
+  /* top: -300px; */
+  top: -150px;
+}
+
+#timerLabel2 {
+  position: relative;
+  left:  -800px; 
+}
+
+
+
+/* ボタン */
+/* .js-toggle-camera {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+.js-toggle-camera:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.js-toggle-microphone {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
+}
+
+.js-toggle-microphone:active {
+    transform: translateY(4px);
+    border-bottom: none;
+} */
+
